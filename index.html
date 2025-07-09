@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부민병원 인도네시아 진출 전략 인포그래픽</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            max-height: 400px;
+        }
+        @media (max-width: 768px) {
+            .chart-container {
+                height: 300px;
+                max-height: 350px;
+            }
+        }
+        .text-blue-dark { color: #00449E; }
+        .text-blue-primary { color: #005CB9; }
+        .text-blue-medium { color: #0077D8; }
+        .text-blue-light { color: #4D9DE0; }
+        .bg-blue-dark { background-color: #00449E; }
+        .bg-blue-primary { background-color: #005CB9; }
+        .bg-blue-medium { background-color: #0077D8; }
+        .bg-blue-light { background-color: #4D9DE0; }
+        .bg-blue-lighter { background-color: #8AD2F2; }
+        .border-blue-dark { border-color: #00449E; }
+        .text-red-500 { color: #EF4444; }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8">
+        
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-black text-blue-dark mb-2">부민병원<br>인도네시아를 향한 새로운 도약</h1>
+            <p class="text-xl text-blue-primary font-bold"><span class="text-red-500 font-bold">HSS</span>(<span class="text-red-500">H</span>ub <span class="text-red-500">S</span>poke <span class="text-red-500">S</span>ystem)을 통한 시장 진출 전략</p>
+        </header>
+
+        <main>
+            <section id="opportunity" class="mb-16">
+                <div class="bg-white rounded-2xl shadow-lg p-8 text-center">
+                    <h2 class="text-2xl font-bold text-blue-dark mb-2">새로운 시장의 발견: 연간 100억 달러의 기회</h2>
+                    <p class="text-lg text-gray-600 mb-6"><span class="text-red-500">매년 200만명</span> 인도네시안인이 선진 의료 서비스를 찾아 해외로 떠납니다.<br>이는 단순한 환자 유출이 아닙니다.<br><span class="text-red-500">부민병원</span>이 선점할 거대 <span class="text-red-500">신규시장</span>을 의미합니다.</p>
+                    <div class="bg-blue-dark text-white rounded-xl p-8 inline-block">
+                        <div class="text-6xl font-black">$100억</div>
+                        <div class="text-2xl font-bold mt-2">인도네시아의 연간 해외 의료 지출</div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="landscape" class="mb-16">
+                <h2 class="text-3xl font-bold text-center text-blue-dark mb-8">기회의 땅, 인도네시아: 왜 그들은 떠나는가?</h2>
+                <div class="text-center mb-12 max-w-3xl mx-auto">
+                    <p class="text-lg text-gray-700">인도네시아의 대규모 의료 엑소더스는 세 가지 핵심 원인에 기인합니다.<br>부민병원의 진출은 이 문제들에 대한 직접적인 해답을 제시하며,<br>인도네시아 정부의 국가적 목표와 완벽하게 부합합니다.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-white p-6 rounded-2xl shadow-md">
+                        <div class="text-5xl mb-4">🩺</div>
+                        <h3 class="text-xl font-bold text-blue-primary mb-2">품질 불신</h3>
+                        <p class="text-gray-600">국내 의료 서비스가<br>국제 표준에 미치지 못함<br>인식 팽배</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md">
+                        <div class="text-5xl mb-4">👨‍⚕️</div>
+                        <h3 class="text-xl font-bold text-blue-primary mb-2">전문의 부족</h3>
+                        <p class="text-gray-600">MIS<br>RA-JRS<br>DSA-THA<br>집도할 숙련된 의사<br><span class="text-red-500">절대 부족</span></p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-md">
+                        <div class="text-5xl mb-4">🚀</div>
+                        <h3 class="text-xl font-bold text-blue-primary mb-2">기술 도입 지연</h3>
+                        <p class="text-gray-600">최신 의료기기 및 신약의 더딘 허가 및 도입 절차</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="kek-strategy" class="mb-16 bg-white rounded-2xl shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-center text-blue-dark mb-8">정부가 만든 '고속도로': KEK(경제특구) 진입 전략</h2>
+                <p class="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-12">인도네시아의 복잡한 '이중 트랙' 규제 환경 속에서, KEK는 리스크를 회피하고 성공을 보장하는 유일한 경로입니다. 우리는 일반 도로가 아닌, 정부가 보장하는 고속도로를 선택합니다.</p>
+                <div class="chart-container">
+                    <canvas id="kekBenefitsChart"></canvas>
+                </div>
+                <p class="text-center text-sm text-gray-500 mt-4">KEK는 외국인 의사 면허 완화, 의료기기 신속 도입, 파격적인 세금 혜택 등 비즈니스 성공을 위한 전폭적인 지원을 제공하여, 부민병원의 진출에 대한 불확실성을 제거합니다.</p>
+            </section>
+
+            <section id="business-model" class="mb-16">
+                 <h2 class="text-3xl font-bold text-center text-blue-dark mb-8">부민병원의 필승 전략: 3대 핵심 모델</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col">
+                        <h3 class="text-2xl font-bold text-blue-primary mb-4 text-center">1. 첨단 수술 허브</h3>
+                        <p class="text-gray-600 mb-6 text-center flex-grow">자본 효율적인 컴팩트 센터(3개 수술실, 20병상)에서 관절/척추 MIS를 시작으로 다분야 로봇 수술까지 확장하여 기술적 우위를 선점합니다.</p>
+                         <div class="space-y-4">
+                            <div class="flex items-center">
+                                <span class="bg-blue-light text-white rounded-full h-8 w-8 text-center leading-8 font-bold mr-4">1</span>
+                                <div><p class="font-semibold">기술 집약적</p><p class="text-sm text-gray-500">로봇수술 등 최첨단 MIS 집중</p></div>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="bg-blue-medium text-white rounded-full h-8 w-8 text-center leading-8 font-bold mr-4">2</span>
+                                <div><p class="font-semibold">다분야 확장</p><p class="text-sm text-gray-500">관절/척추 → 비뇨기과, 부인과 등</p></div>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="bg-blue-primary text-white rounded-full h-8 w-8 text-center leading-8 font-bold mr-4">3</span>
+                                 <div><p class="font-semibold">자본 효율적</p><p class="text-sm text-gray-500">최소 병상, 높은 회전율</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col">
+                        <h3 class="text-2xl font-bold text-blue-primary mb-4 text-center">2. 전략적 파트너십</h3>
+                        <p class="text-gray-600 mb-6 text-center flex-grow">'병원 내 병원' 모델로 MIS 역량이 없는 현지 병원과 협력하여, 우리는 안정적인 환자를 확보하고 파트너는 최첨단 수술 역량을 얻는 Win-Win 관계를 구축합니다.</p>
+                         <div class="flex justify-center items-center flex-grow">
+                             <div class="relative w-48 h-48">
+                                <div class="absolute top-0 left-0 w-32 h-32 bg-blue-light rounded-full flex items-center justify-center text-white text-center p-2 font-bold">부민병원<br>(첨단 수술 역량)</div>
+                                <div class="absolute bottom-0 right-0 w-32 h-32 bg-blue-lighter rounded-full flex items-center justify-center text-blue-dark text-center p-2 font-bold">현지 파트너<br>(환자, 인프라)</div>
+                             </div>
+                         </div>
+                    </div>
+                    <div class="bg-white rounded-2xl shadow-lg p-8 flex flex-col">
+                        <h3 class="text-2xl font-bold text-blue-primary mb-4 text-center">3. 국가 트레이닝 허브</h3>
+                        <p class="text-gray-600 mb-6 text-center flex-grow">현지 의료계의 저항을 자산으로 전환합니다. 인도네시아 주니어 의사들에게 선진 의료 기술을 전수하여, 보건부의 공식 파트너이자 교육의 중심지로 자리매김합니다.</p>
+                        <div class="text-center flex-grow flex flex-col justify-center">
+                            <div class="text-6xl">🤝</div>
+                            <p class="text-xl font-bold text-blue-medium mt-4">의료적 정당성 확보</p>
+                            <p class="text-gray-600">우호적 사업 환경 조성</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="expansion" class="mb-16">
+                <h2 class="text-3xl font-bold text-center text-blue-dark mb-8">지속 가능한 성장: <span class="text-red-500">허브 앤 스포크 시스템</span></h2>
+                 <p class="text-center text-lg text-gray-700 max-w-4xl mx-auto mb-12">KEK 수술 허브와 대도시 위성 센터를 동시에 출범시켜 시너지를 극대화하고, 단계적으로 아세안 최고의 국제 트레이닝 연구소로 성장합니다. 이것이 부민병원의 장기적인 청사진입니다.</p>
+                
+                <div class="bg-white rounded-2xl shadow-lg p-8 mb-8">
+                    <h3 class="text-2xl font-bold text-blue-primary mb-6 text-center"><span class="text-red-500">운영 효율화와 비용절감</span></h3>
+                    <div class="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-4 w-full">
+                        <div class="text-center p-6 border-4 border-blue-lighter rounded-xl w-full md:w-1/5 flex-shrink-0">
+                             <p class="text-4xl">🏢</p>
+                             <p class="font-bold text-lg text-blue-medium">자카르타<br>위성허브</p>
+                             <p class="text-sm text-gray-600">(프리미엄 검진/재활)</p>
+                        </div>
+                        <div class="text-5xl font-bold text-blue-light transform md:-rotate-0 rotate-90 flex-shrink-0">→</div>
+                        <div class="text-center p-6 bg-blue-dark text-white rounded-xl shadow-xl w-full md:w-2/5 flex-shrink-0">
+                            <p class="text-4xl">🏥</p>
+                            <p class="font-bold text-xl">KEK<br>수술허브</p>
+                            <p class="text-sm">(HSS연계 수술)</p>
+                        </div>
+                         <div class="text-5xl font-bold text-blue-light transform md:-rotate-0 rotate-90 flex-shrink-0">→</div>
+                         <div class="text-center p-6 border-4 border-blue-lighter rounded-xl w-full md:w-1/5 flex-shrink-0">
+                             <p class="text-4xl">📈</p>
+                             <p class="font-bold text-lg text-blue-medium">고품질 환자 유입</p>
+                             <p class="text-sm text-gray-600">브랜드 인지도 강화</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-lg p-8">
+                    <h3 class="text-2xl font-bold text-blue-primary mb-6 text-center">성장 로드맵 (향후 5년)</h3>
+                    <div class="chart-container" style="height: 300px;">
+                        <canvas id="growthRoadmapChart"></canvas>
+                    </div>
+                     <p class="text-center text-sm text-gray-500 mt-4">초기 안정적인 수술 건수 확보 후, 위성 센터 확장을 통해 수술 의뢰 건수를 기하급수적으로 늘려나가는 성장 모델입니다.</p>
+                </div>
+            </section>
+            
+            <section id="value-proposition" class="mb-16">
+                 <h2 class="text-3xl font-bold text-center text-blue-dark mb-8">모두가 승리하는 모델: Win-Win-Win-Win</h2>
+                 <p class="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-12">이 프로젝트는 부민병원뿐만 아니라, 모든 이해관계자에게 명확하고 강력한 가치를 제공하며 지속 가능한 성공의 선순환 구조를 만듭니다.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="chart-container">
+                         <canvas id="stakeholderChart"></canvas>
+                    </div>
+                     <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-4 h-4 rounded-full bg-blue-dark mt-1.5 mr-3 flex-shrink-0"></div>
+                            <div>
+                                <h4 class="font-bold text-blue-dark">부민병원</h4>
+                                <p class="text-gray-600">고수익 신규 매출 확보 및 아세안 지역 리더십 강화</p>
+                            </div>
+                        </div>
+                         <div class="flex items-start">
+                            <div class="w-4 h-4 rounded-full bg-blue-primary mt-1.5 mr-3 flex-shrink-0"></div>
+                            <div>
+                                <h4 class="font-bold text-blue-primary">파트너 병원</h4>
+                                <p class="text-gray-600">투자 없이 최첨단 수술 역량 확보 및 경쟁 우위 선점</p>
+                            </div>
+                        </div>
+                         <div class="flex items-start">
+                            <div class="w-4 h-4 rounded-full bg-blue-medium mt-1.5 mr-3 flex-shrink-0"></div>
+                            <div>
+                                <h4 class="font-bold text-blue-medium">인도네시아 정부</h4>
+                                <p class="text-gray-600">외화 유출 방지 및 선진 의료 기술 이전 효과</p>
+                            </p>
+                        </div>
+                         <div class="flex items-start">
+                            <div class="w-4 h-4 rounded-full bg-blue-light mt-1.5 mr-3 flex-shrink-0"></div>
+                            <div>
+                                <h4 class="font-bold text-blue-light">환자 및 의사</h4>
+                                <p class="text-gray-600">세계적 수준 의료 접근성 향상 및 양질의 수련 기회 확대</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="text-center mt-16 pt-8 border-t-2 border-blue-dark">
+            <p class="text-2xl font-black text-blue-dark">이것은 단순한 투자가 아닌, 미래를 향한 전략적 행보입니다.</p>
+            <p class="text-lg text-gray-600 mt-2">부민병원의 성공적인 인도네시아 진출을 확신합니다.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        const brilliantBlues = ['#00449E', '#005CB9', '#0077D8', '#4D9DE0', '#8AD2F2'];
+
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            }
+            return label;
+        };
+
+        const wrapLabel = (label, maxLength = 16) => {
+            if (label.length <= maxLength) {
+                return label;
+            }
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + ' ' + word).trim().length > maxLength) {
+                    lines.push(currentLine.trim());
+                    currentLine = word;
+                } else {
+                    currentLine = (currentLine + ' ' + word).trim();
+                }
+            }
+            if (currentLine) {
+                lines.push(currentLine.trim());
+            }
+            return lines;
+        };
+        
+        const defaultChartOptions = {
+            maintainAspectRatio: false,
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'bottom',
+                     labels: {
+                        font: {
+                            family: "'Noto Sans KR', sans-serif",
+                        }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    },
+                    titleFont: {
+                        family: "'Noto Sans KR', sans-serif",
+                    },
+                    bodyFont: {
+                       font: {
+                            family: "'Noto Sans KR', sans-serif",
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        font: {
+                           family: "'Noto Sans KR', sans-serif",
+                        }
+                    }
+                },
+                y: {
+                     ticks: {
+                        font: {
+                           family: "'Noto Sans KR', sans-serif",
+                        }
+                    }
+                }
+            }
+        };
+
+        new Chart(document.getElementById('kekBenefitsChart'), {
+            type: 'bar',
+            data: {
+                labels: [
+                    '외국인 의사 근무기간', 
+                    '의료기기/의약품 도입 속도', 
+                    '법인세 면제 혜택', 
+                    '행정 절차 간소화'
+                ].map(label => wrapLabel(label)),
+                datasets: [
+                    {
+                        label: 'KEK (경제특구) 혜택',
+                        data: [100, 100, 100, 100],
+                        backgroundColor: brilliantBlues[1],
+                        borderColor: brilliantBlues[0],
+                        borderWidth: 1
+                    },
+                    {
+                        label: '비-KEK 지역',
+                        data: [20, 15, 5, 30],
+                        backgroundColor: '#E5E7EB',
+                        borderColor: '#9CA3AF',
+                        borderWidth: 1
+                    }
+                ]
+            },
+            options: {
+                ...defaultChartOptions,
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return value + '%'
+                            },
+                            font: {
+                               family: "'Noto Sans KR', sans-serif",
+                            }
+                        }
+                    }
+                }
+            }
+        });
+        
+        new Chart(document.getElementById('growthRoadmapChart'), {
+            type: 'line',
+            data: {
+                labels: ['1년차', '2년차', '3년차', '4년차', '5년차'],
+                datasets: [{
+                    label: '연간 총 수술 예상 건수',
+                    data: [300, 450, 900, 1500, 2500],
+                    fill: true,
+                    backgroundColor: 'rgba(77, 157, 224, 0.2)',
+                    borderColor: brilliantBlues[2],
+                    tension: 0.4
+                }]
+            },
+            options: {
+                ...defaultChartOptions,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                         ticks: {
+                            font: {
+                               family: "'Noto Sans KR', sans-serif",
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        new Chart(document.getElementById('stakeholderChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['부민병원', '파트너 병원', '인도네시아 정부', '환자 및 의사'],
+                datasets: [{
+                    label: '이해관계자 가치',
+                    data: [25, 25, 25, 25],
+                    backgroundColor: brilliantBlues.slice(0, 4),
+                    hoverOffset: 4
+                }]
+            },
+            options: {
+                 ...defaultChartOptions,
+                 plugins: {
+                     ...defaultChartOptions.plugins,
+                     legend: {
+                         display: false
+                     }
+                 }
+            }
+        });
+
+    </script>
+</body>
+</html>
